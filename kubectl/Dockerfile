@@ -8,4 +8,4 @@ RUN curl -LO https://storage.googleapis.com/kubernetes-release/release/$(curl -s
 
 RUN chmod +x ./kubectl && mv ./kubectl /usr/local/bin/kubectl
 
-RUN mkdir –m770 -p $HOME/.kube
+RUN mkdir –m700 -p $HOME/.kube
